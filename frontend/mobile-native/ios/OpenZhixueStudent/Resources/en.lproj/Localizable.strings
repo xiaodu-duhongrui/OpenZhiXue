@@ -1,0 +1,98 @@
+"app.name" = "Zhixue";
+"app.slogan" = "Smart Learning, Bright Future";
+
+"tab.home" = "Home";
+"tab.homework" = "Homework";
+"tab.grades" = "Grades";
+"tab.profile" = "Profile";
+
+"login.title" = "Login";
+"login.username" = "Username";
+"login.password" = "Password";
+"login.remember" = "Remember me";
+"login.forgot" = "Forgot password?";
+"login.submit" = "Login";
+"login.register" = "Register";
+"login.biometric" = "Use Face ID";
+
+"home.welcome" = "Welcome back";
+"home.quick_actions" = "Quick Actions";
+"home.recent_homework" = "Recent Homework";
+"home.upcoming_exams" = "Upcoming Exams";
+"home.study_progress" = "Study Progress";
+
+"homework.title" = "Homework";
+"homework.pending" = "Pending";
+"homework.submitted" = "Submitted";
+"homework.graded" = "Graded";
+"homework.late" = "Late";
+"homework.submit" = "Submit";
+"homework.detail" = "Homework Detail";
+"homework.deadline" = "Deadline";
+"homework.score" = "Score";
+"homework.feedback" = "Feedback";
+
+"grades.title" = "Grades";
+"grades.exam_name" = "Exam Name";
+"grades.subject" = "Subject";
+"grades.score" = "Score";
+"grades.rank" = "Rank";
+"grades.average" = "Average";
+"grades.highest" = "Highest";
+"grades.lowest" = "Lowest";
+"grades.analysis" = "Analysis";
+
+"mistakes.title" = "Mistakes";
+"mistakes.unresolved" = "Unresolved";
+"mistakes.resolved" = "Resolved";
+"mistakes.important" = "Important";
+"mistakes.mark_resolved" = "Mark Resolved";
+"mistakes.analysis" = "Analysis";
+"mistakes.similar" = "Similar";
+
+"analytics.title" = "Analytics";
+"analytics.overview" = "Overview";
+"analytics.trend" = "Trend";
+"analytics.subjects" = "Subjects";
+"analytics.suggestions" = "Suggestions";
+
+"notification.title" = "Notifications";
+"notification.all" = "All";
+"notification.unread" = "Unread";
+"notification.mark_read" = "Mark Read";
+"notification.clear" = "Clear";
+
+"schedule.title" = "Schedule";
+"schedule.today" = "Today";
+"schedule.week" = "This Week";
+
+"profile.title" = "Profile";
+"profile.settings" = "Settings";
+"profile.help" = "Help";
+"profile.about" = "About";
+"profile.logout" = "Logout";
+"profile.edit" = "Edit Profile";
+
+"settings.title" = "Settings";
+"settings.notification" = "Notifications";
+"settings.homework_reminder" = "Homework Reminder";
+"settings.grade_notification" = "Grade Notification";
+"settings.dark_mode" = "Dark Mode";
+"settings.language" = "Language";
+"settings.clear_cache" = "Clear Cache";
+"settings.about" = "About";
+
+"common.loading" = "Loading...";
+"common.error" = "Error";
+"common.retry" = "Retry";
+"common.cancel" = "Cancel";
+"common.confirm" = "Confirm";
+"common.save" = "Save";
+"common.delete" = "Delete";
+"common.edit" = "Edit";
+"common.search" = "Search";
+"common.filter" = "Filter";
+"common.no_data" = "No Data";
+"common.refresh" = "Refresh";
+"common.more" = "More";
+"common.all" = "All";

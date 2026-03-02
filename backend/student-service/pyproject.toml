@@ -1,0 +1,18 @@
+[project]
+name = "student-service"
+version = "0.1.0"
+description = "Student management service for OpenZhiXue platform"
+readme = "README.md"
+requires-python = ">=3.11"
+
+[tool.black]
+line-length = 88
+target-version = ['py311']
+
+[tool.isort]
+profile = "black"
+line_length = 88
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]

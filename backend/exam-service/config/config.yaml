@@ -1,0 +1,43 @@
+server:
+  port: 8085
+  mode: debug
+
+database:
+  host: localhost
+  port: 5432
+  user: openzhixue
+  password: openzhixue123
+  name: openzhixue_exams
+  sslmode: disable
+  max_conns: 25
+  min_conns: 5
+  max_conn_lifetime: 1h
+  max_conn_idle_time: 30m
+
+redis:
+  host: localhost
+  port: 6379
+  password: ""
+  db: 0
+  pool_size: 10
+
+rabbitmq:
+  host: localhost
+  port: 5672
+  user: openzhixue
+  password: openzhixue123
+  vhost: "/"
+
+jwt:
+  secret: your-jwt-secret-key
+  expire: 24h
+
+log:
+  level: debug
+  format: console
+  output: stdout
+
+exam:
+  auto_save_interval: 30s
+  max_concurrent_sessions: 1000
+  session_timeout: 30m

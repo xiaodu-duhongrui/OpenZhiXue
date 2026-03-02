@@ -1,0 +1,98 @@
+"app.name" = "智学";
+"app.slogan" = "智慧学习，成就未来";
+
+"tab.home" = "首页";
+"tab.homework" = "作业";
+"tab.grades" = "成绩";
+"tab.profile" = "我的";
+
+"login.title" = "登录";
+"login.username" = "用户名";
+"login.password" = "密码";
+"login.remember" = "记住密码";
+"login.forgot" = "忘记密码？";
+"login.submit" = "登录";
+"login.register" = "注册账号";
+"login.biometric" = "使用面容ID登录";
+
+"home.welcome" = "欢迎回来";
+"home.quick_actions" = "快捷功能";
+"home.recent_homework" = "最近作业";
+"home.upcoming_exams" = "即将考试";
+"home.study_progress" = "学习进度";
+
+"homework.title" = "作业列表";
+"homework.pending" = "待完成";
+"homework.submitted" = "已提交";
+"homework.graded" = "已批改";
+"homework.late" = "已逾期";
+"homework.submit" = "提交作业";
+"homework.detail" = "作业详情";
+"homework.deadline" = "截止时间";
+"homework.score" = "得分";
+"homework.feedback" = "教师评语";
+
+"grades.title" = "成绩查询";
+"grades.exam_name" = "考试名称";
+"grades.subject" = "科目";
+"grades.score" = "分数";
+"grades.rank" = "排名";
+"grades.average" = "平均分";
+"grades.highest" = "最高分";
+"grades.lowest" = "最低分";
+"grades.analysis" = "成绩分析";
+
+"mistakes.title" = "错题本";
+"mistakes.unresolved" = "未解决";
+"mistakes.resolved" = "已解决";
+"mistakes.important" = "重要";
+"mistakes.mark_resolved" = "标记已解决";
+"mistakes.analysis" = "错因分析";
+"mistakes.similar" = "相似错题";
+
+"analytics.title" = "学情分析";
+"analytics.overview" = "学习概览";
+"analytics.trend" = "成绩趋势";
+"analytics.subjects" = "学科分析";
+"analytics.suggestions" = "学习建议";
+
+"notification.title" = "消息通知";
+"notification.all" = "全部";
+"notification.unread" = "未读";
+"notification.mark_read" = "标记已读";
+"notification.clear" = "清空";
+
+"schedule.title" = "课程表";
+"schedule.today" = "今日课程";
+"schedule.week" = "本周";
+
+"profile.title" = "个人中心";
+"profile.settings" = "设置";
+"profile.help" = "帮助中心";
+"profile.about" = "关于我们";
+"profile.logout" = "退出登录";
+"profile.edit" = "编辑资料";
+
+"settings.title" = "设置";
+"settings.notification" = "通知设置";
+"settings.homework_reminder" = "作业提醒";
+"settings.grade_notification" = "成绩通知";
+"settings.dark_mode" = "深色模式";
+"settings.language" = "语言";
+"settings.clear_cache" = "清除缓存";
+"settings.about" = "关于";
+
+"common.loading" = "加载中...";
+"common.error" = "加载失败";
+"common.retry" = "重试";
+"common.cancel" = "取消";
+"common.confirm" = "确认";
+"common.save" = "保存";
+"common.delete" = "删除";
+"common.edit" = "编辑";
+"common.search" = "搜索";
+"common.filter" = "筛选";
+"common.no_data" = "暂无数据";
+"common.refresh" = "刷新";
+"common.more" = "更多";
+"common.all" = "全部";

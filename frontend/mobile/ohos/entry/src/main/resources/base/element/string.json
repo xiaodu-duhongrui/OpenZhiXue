@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "智学移动端应用模块"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "智学主入口"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "智学"
+    },
+    {
+      "name": "app_name",
+      "value": "智学"
+    }
+  ]
+}

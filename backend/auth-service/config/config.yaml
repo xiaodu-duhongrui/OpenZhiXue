@@ -1,0 +1,35 @@
+server:
+  host: "0.0.0.0"
+  port: 8081
+  mode: "debug"
+
+database:
+  driver: "mysql"
+  host: "localhost"
+  port: 3306
+  username: "root"
+  password: "root123"
+  dbname: "openzhixue_auth"
+  charset: "utf8mb4"
+  max_idle_conns: 10
+  max_open_conns: 100
+
+jwt:
+  secret: "your-secret-key-change-in-production"
+  issuer: "openzhixue-auth"
+  access_token_expire: 3600
+  refresh_token_expire: 604800
+
+oauth:
+  wechat:
+    app_id: "your-wechat-app-id"
+    app_secret: "your-wechat-app-secret"
+    redirect_url: "http://localhost:8081/api/v1/auth/oauth/wechat/callback"
+  qq:
+    app_id: "your-qq-app-id"
+    app_key: "your-qq-app-key"
+    redirect_url: "http://localhost:8081/api/v1/auth/oauth/qq/callback"
+
+log:
+  level: "debug"
+  format: "console"

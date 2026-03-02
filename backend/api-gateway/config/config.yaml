@@ -1,0 +1,60 @@
+server:
+  port: 8080
+  mode: debug
+
+services:
+  auth-service:
+    url: http://localhost:8081
+    timeout: 30s
+  student-service:
+    url: http://localhost:8082
+    timeout: 30s
+  grade-service:
+    url: http://localhost:8083
+    timeout: 30s
+  homework-service:
+    url: http://localhost:8084
+    timeout: 30s
+  exam-service:
+    url: http://localhost:8085
+    timeout: 30s
+  learning-service:
+    url: http://localhost:8086
+    timeout: 30s
+  communication-service:
+    url: http://localhost:8087
+    timeout: 30s
+
+rate_limit:
+  enabled: true
+  requests_per_second: 100
+  burst: 200
+
+circuit_breaker:
+  enabled: true
+  max_requests: 3
+  interval: 60s
+  timeout: 30s
+  failure_threshold: 5
+  success_threshold: 2
+
+retry:
+  enabled: true
+  max_attempts: 3
+  initial_interval: 100ms
+  max_interval: 1s
+  multiplier: 2.0
+
+jwt:
+  secret: your-secret-key-change-in-production
+  issuer: openzhixue
+  expiry: 24h
+
+logging:
+  level: info
+  format: json
+  output: stdout
+
+metrics:
+  enabled: true
+  path: /metrics
